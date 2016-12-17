@@ -1,9 +1,25 @@
 body {
 	  background-color: #E4E4E4;
 	  font-family: helvetica;
+	  color: black;
 	}
+
 h1 {
-		color: #FFFFFF;
+		color: #EFEFEF;
 		background-color: #505050;
-		font-family: helvetica;
+		letter-spacing: 10px;
+		font-weight:bold;
 	}
+
+
+
+a {
+	color:black;
+}
+
+a:hover {
+		letter-spacing: 10px;
+		font-weight:bold;
+		color:red;
+	}
+
