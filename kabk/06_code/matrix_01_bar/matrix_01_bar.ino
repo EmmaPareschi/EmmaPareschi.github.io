@@ -15,6 +15,9 @@ int pixel = 0;
 int columnLevel = 0; 
 int rowLevel = 0;
 
+int pot_pin = A4;
+int pot_value = 0;
+
 // pixel value converted into LED column 
 // pixel value converted into LED row
 void setup() {
@@ -23,13 +26,22 @@ void setup() {
     pinMode(columnPins[i], OUTPUT); // make all the LED pins outputs
     pinMode(rowPins[i], OUTPUT); 
     }
+
+   pinMode(pot_pin, INPUT);
     
 }
 
 void loop() {
+
+  pot_value = analogRead(pot_pin);
+
+  pot_value = map(pot_value, 0, 1023, 0, 62);
   
-  pixel = pixel + 1; if(pixel > 63)
+  pixel = pixel + 1; 
+  
+  if(pixel > pot_value)
   pixel = 0;
+  
   columnLevel = pixel / 8;
   rowLevel = pixel % 8;
   
