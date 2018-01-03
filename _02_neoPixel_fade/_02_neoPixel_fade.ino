@@ -12,7 +12,6 @@ int delayval = 10; // delay for half a second
 int maxBrightness = 100;
 int minBrightness = 0;
 int fadeSpeed = 20;
-int fade_loops = 2;
 
 
  void setup()
@@ -22,6 +21,7 @@ int fade_loops = 2;
     strip.show(); // Initialize all pixels to 'off'  
    
  }
+ 
  void loop() {  
     pulseColor(strip.Color(255, 0, 0), fadeSpeed);
  }
