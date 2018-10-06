@@ -38,3 +38,7 @@ div.box {
 		border: 1px solid black;
 
 	}
+
+	div.code {
+    text-indent: 100px;
+}
