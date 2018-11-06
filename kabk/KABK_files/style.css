@@ -1,0 +1,44 @@
+body {
+	  background-color: #E4E4E4;
+	  font-family: helvetica;
+	  color: black;
+	  	margin-top: 100px;
+		margin-right: 40px;
+		margin-bottom: 100px;
+		margin-left: 70px;
+	}
+
+h1 {
+		color: #EFEFEF;
+		background-color: #505050;
+		letter-spacing: 10px;
+		font-weight:bold;
+	}
+
+#c1-1 {
+		text-align: right;
+	}
+
+p {
+	margin: 5px 50px 5px 50px;
+}
+
+a {
+	color:black;
+}
+
+a:hover {
+		letter-spacing: 10px;
+		font-weight:bold;
+		color:red;
+	}
+
+div.box {
+		width: 200px;
+		border: 1px solid black;
+
+	}
+
+	div.code {
+    text-indent: 100px;
+}
