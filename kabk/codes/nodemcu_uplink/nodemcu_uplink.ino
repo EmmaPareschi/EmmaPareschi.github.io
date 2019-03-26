@@ -2,14 +2,14 @@
 #include "ThingSpeak.h"   //Including library to send data to thingspeak
 
 //WiFi credentials
-char ssid[] = "VFNL-F52600";   // your network SSID (name) 
-char pass[] = "WYNG5WT62U7B7";   // your network password
+char ssid[] = "WiFi Network";   // your network SSID (name) 
+char pass[] = "Password";   // your network password
 
 WiFiClient  client;
 
 //ThingSpeak credentials credentials
-unsigned long myChannelNumber = 739610;
-char myWriteAPIKey[] = "W1ANLYD6BF60MPX2";
+unsigned long myChannelNumber = ; //your channel ID
+char myWriteAPIKey[] = "Write API Key"; //"Write API" of your channel
 
 float data = 345;  //data that I sendf to thingspeak
 int wait = 20000; // Time between two uplinks

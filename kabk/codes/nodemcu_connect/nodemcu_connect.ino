@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>  //include library
 
 //WiFi credentials
-char ssid[] = "VFNL-F52600";   // your network SSID (name) 
-char pass[] = "WYNG5WT62U7B7";   // your network password
+char ssid[] = "WiFi Network";   // your network SSID (name) 
+char pass[] = "Password";   // your network password
 
 void setup()
 {
