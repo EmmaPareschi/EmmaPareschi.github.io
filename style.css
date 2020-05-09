@@ -15,6 +15,10 @@ h1 {
 		font-weight:normal;
 	}
 
+h4 {
+	 	font-family: "Lato";
+	}
+
 #c1-1 {
 		text-align: right;
 	}
@@ -30,7 +34,7 @@ a {
 a:hover {
 		letter-spacing: 10px;
 		font-weight:bold;
-		color:yellow;
+	/*	color:yellow; */
 	}
 
 /*setting for the link home, classe home*/
